@@ -45,8 +45,8 @@
 
       .menu ul span{
         background: #000000;
-        border-radius:50px;
-        font-size:25pt;
+        border-radius:60px;
+        font-size:30pt;
         width:80px;
         height:80px;
         margin:10px 0;
@@ -55,7 +55,7 @@
         align-items:center;
         z-index:1;
         cursor:pointer;
-        transition:all 0.5s ease;
+        transition:all 0.5s ease-in-out;
         color:#D8B53A;
       }
 
@@ -68,7 +68,7 @@
         top:0;
         z-index:-1;
         border-radius:100px 0 0 100px;
-        transition:all s ease;
+        transition:all s ease-in-out;
       }
 
     .menu ul .goo-index:before{
@@ -165,3 +165,4 @@
     left: calc(50% - 35px);
     bottom: -15px;
   }
+  
