@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task_3</title>
     <script src="https://kit.fontawesome.com/40e7722792.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
@@ -13,7 +11,7 @@
             <ul>
                 <li>
                     <span onmouseenter="hoverEnter(0)">
-                        <i class="fa-regular fa-house-blank"></i>
+                        <i class="fa-solid fa-house-blank"></i>
                     </span>
                 </li>
                 <li>
@@ -23,12 +21,12 @@
                 </li>
                 <li>
                     <span onmouseenter="hoverEnter(2)">
-                        <i class="fa-solid fa-rectangle-history-circle-user"></i>
+                        <i class="fa-regular fa-folder-open"></i>
                     </span>
                 </li>
                 <li>
                     <span onmouseenter="hoverEnter(3)">
-                        <i class="fa-solid fa-message-arrow-up-right"></i>
+                        <i class="fa-light fa-paper-plane"></i>
                     </span>
                 </li>
                 <span class="goo-index" id="goo-index"></span>
@@ -37,18 +35,17 @@
          <!-- content container-------------------- -->
         <div class="content-wrapper">
             <!-- first screen --------------------------- -->
-            <div id="screen_0" class="screen_visible">
+            <div id="screen_0" class="screen visible">
                 <h1>Vasudev Kutumbakam</h1>
-                <h2>World is our Family</h2>
                 <p>
                     Crowdfunding can be a quick and easy way to meet unanticipated, pressing needs. Today, anyone with a smartphone can participate in making a difference with great ease. More and more people are now raising funds online to tackle emergencies more efficiently. Increasing digital access and the convenience of online payments are driving more and more Indians to take the digital route to mobilize greater support for urgent needs on time.
                 </p>
                 <center>
                     <button id="donate-button">
-                        Donate Now
+                        <span>Donate </span>
                     </button>
                 </center>
-                <div class="image" style="background-image:url();"></div>
+                <div class="image" style="background-image:url(home-2.jpg);"></div>
             </div>
 
             <!-- screen 2 ------------------------------- -->
@@ -64,15 +61,19 @@
                         <li>Scale - Make a big impact with your small amounts. Donate as little as Rs.110/ month</li>
                     </ul>
                 </p>
-                <div class="image" style="background-image:url();"></div>
+                <div class="image" style="background-image:url(home-1.jpg);"></div>
             </div>
 
             <!-- screen 3---------------------- -->
             <div id="screen_2" class="screen">
                 <h1>Photo Gallery</h1>
                 <center>
-                    <div class="image"><img src="" style="width: 700px; height: 250px;"></div>
-                    <div class="image"><img src="" style="width: 700px; height: 250px;"></div>
+                    <div id="img-container" class="image">
+                        <img src="gallery-1.jpg" style="width: 700px; height: 250px;">
+                    </div>
+                    <div class="image">
+                        <img src="gallery-2.jpg" style="width: 700px; height: 250px;">
+                    </div>
                 </center>
             </div>
 
@@ -87,7 +88,7 @@
                     <br>
                     Web Address: 
                 </p>
-                <div class="image" style="background-image: url();"></div>
+                <div class="image" style="background-image:url(https://codemyui.com/wp-content/uploads/2017/07/envelope-to-paper-plane-animation.gif)"></div>
             </div>
         </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
